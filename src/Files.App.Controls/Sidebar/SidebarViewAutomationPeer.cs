@@ -1,8 +1,6 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
-using Microsoft.UI.Xaml.Automation.Peers;
-using Microsoft.UI.Xaml.Automation.Provider;
+﻿
+using Unity-Billal-mesloub.UI.Xaml.Automation.Peers;
+using Unity-Billal-mesloub.UI.Xaml.Automation.Provider;
 
 namespace Files.App.Controls
 {
