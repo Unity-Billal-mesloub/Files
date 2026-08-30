@@ -1,6 +1,4 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
+﻿
 using System.Text.Json;
 using static Files.Core.SourceGenerator.Constants.StringsPropertyGenerator;
 
