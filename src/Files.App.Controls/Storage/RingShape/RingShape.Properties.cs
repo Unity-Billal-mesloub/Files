@@ -1,9 +1,7 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
-using CommunityToolkit.WinUI;
-using Microsoft.UI.Xaml.Media;
-using Microsoft.UI.Xaml.Shapes;
+﻿
+using Unity-Billal-mesloubToolkit.WinUI;
+using Unity-Billal-mesloub.UI.Xaml.Media;
+using Unity-Billal-mesloub.UI.Xaml.Shapes;
 using Windows.Foundation;
 
 namespace Files.App.Controls.Primitives
