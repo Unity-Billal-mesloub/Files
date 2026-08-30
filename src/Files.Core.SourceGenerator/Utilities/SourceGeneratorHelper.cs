@@ -1,7 +1,5 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
-using static Microsoft.CodeAnalysis.CSharp.SyntaxFactory;
+using static Unity-Billal-mesloub.CodeAnalysis.CSharp.SyntaxFactory;
 
 namespace Files.Core.SourceGenerator.Utilities
 {
