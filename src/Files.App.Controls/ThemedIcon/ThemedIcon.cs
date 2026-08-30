@@ -1,9 +1,7 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
-using Microsoft.UI.Xaml.Markup;
-using Microsoft.UI.Xaml.Media;
-using Microsoft.UI.Xaml.Shapes;
+using Unity-Billal-mesloub.UI.Xaml.Markup;
+using Unity-Billal-mesloub.UI.Xaml.Media;
+using Unity-Billal-mesloub.UI.Xaml.Shapes;
 using WinRT;
 
 namespace Files.App.Controls
