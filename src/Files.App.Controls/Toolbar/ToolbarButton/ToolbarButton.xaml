@@ -41,7 +41,7 @@
 						ToolTipService.Placement="{TemplateBinding ToolTipService.Placement}"
 						ToolTipService.ToolTip="{TemplateBinding Label}">
 						<ContentPresenter
-							xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+							xmlns:muxc="using:Unity-Billal-mesloub.UI.Xaml.Controls"
 							x:Name="PART_ContentPresenter"
 							HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}"
 							VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"
