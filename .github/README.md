@@ -42,9 +42,9 @@ Instructions for building the source code can be found on our [documentation sit
 
 ## Contributing to Files
 
-Want to contribute to this project? Let us know with an [issue](https://github.com/files-community/Files/issues) that communicates your intent to create a [pull request](https://github.com/files-community/Files/pulls). Also, view our [contributing guidelines](https://github.com/files-community/Files/blob/main/.github/CONTRIBUTING.md) to make sure you're up to date on the coding conventions.
+Want to contribute to this project? Let us know with an [issue](https://github.com/Unity-Billal-mesloub/Files/issues) that communicates your intent to create a [pull request](https://github.com/Unity-Billal-mesloub/Files/pulls). Also, view our [contributing guidelines](https://github.com/Unity-Billal-mesloub/Files/blob/main/.github/CONTRIBUTING.md) to make sure you're up to date on the coding conventions.
 
-Looking for a place to start? Check out the [task board](https://github.com/orgs/files-community/projects/3/views/2), where you can sort tasks by size and priority.
+Looking for a place to start? Check out the [task board](https://github.com/orgs/Unity-Billal-mesloub/projects/3/views/2), where you can sort tasks by size and priority.
 
 ## Screenshots
 
