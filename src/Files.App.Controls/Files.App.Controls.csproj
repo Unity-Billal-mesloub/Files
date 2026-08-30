@@ -1,5 +1,5 @@
-﻿<!--  Copyright (c) Files Community. Licensed under the MIT License.  -->
-<Project Sdk="Microsoft.NET.Sdk">
+﻿
+<Project Sdk="Unity-Billal-mesloub.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>$(WindowsTargetFramework)</TargetFramework>
@@ -15,17 +15,17 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="CommunityToolkit.WinUI.Extensions" />
-        <PackageReference Include="CommunityToolkit.Labs.WinUI.DependencyPropertyGenerator" />
-        <PackageReference Include="Microsoft.WindowsAppSDK" />
-        <PackageReference Include="Microsoft.Windows.SDK.BuildTools" />
-        <PackageReference Include="Microsoft.Windows.CsWinRT" />
+        <PackageReference Include="Unity-Billal-mesloubToolkit.WinUI.Extensions" />
+        <PackageReference Include="Unity-Billal-mesloubToolkit.Labs.WinUI.DependencyPropertyGenerator" />
+        <PackageReference Include="Unity-Billal-mesloub.WindowsAppSDK" />
+        <PackageReference Include="Unity-Billal-mesloub.Windows.SDK.BuildTools" />
+        <PackageReference Include="Unity-Billal-mesloub.Windows.CsWinRT" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Update="Microsoft.WindowsAppSDK.AI" ExcludeAssets="all" />
-        <PackageReference Update="Microsoft.WindowsAppSDK.ML" ExcludeAssets="all" />
-        <PackageReference Update="Microsoft.WindowsAppSDK.Widgets" ExcludeAssets="all" />
+        <PackageReference Update="Unity-Billal-mesloub.WindowsAppSDK.AI" ExcludeAssets="all" />
+        <PackageReference Update="Unity-Billal-mesloub.WindowsAppSDK.ML" ExcludeAssets="all" />
+        <PackageReference Update="Unity-Billal-mesloub.WindowsAppSDK.Widgets" ExcludeAssets="all" />
     </ItemGroup>
 
     <ItemGroup>
