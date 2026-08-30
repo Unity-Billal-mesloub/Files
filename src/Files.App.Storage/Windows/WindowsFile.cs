@@ -1,5 +1,3 @@
-// Copyright (c) Files Community
-// SPDX-License-Identifier: MPL-2.0
 
 using System.IO;
 using Windows.Win32.UI.Shell;
