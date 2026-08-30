@@ -1,6 +1,4 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
+﻿
 using Windows.Graphics.Imaging;
 
 namespace Files.App.Actions
