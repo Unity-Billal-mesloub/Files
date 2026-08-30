@@ -1,5 +1,3 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
 // Abstract:
 //  Declaration of Undocumented interfaces and helpers.
