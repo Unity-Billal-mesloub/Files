@@ -1,5 +1,3 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
 // Abstract:
 //  Implementation of CFilesOpenDialog.
