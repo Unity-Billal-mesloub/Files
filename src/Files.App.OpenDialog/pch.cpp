@@ -1,5 +1,4 @@
-// Copyright (c) Files Community
-// SPDX-License-Identifier: MPL-2.0
+
 
 // Abstract:
 //  Source file pch.h corresponding to pch.h precompiled header.
