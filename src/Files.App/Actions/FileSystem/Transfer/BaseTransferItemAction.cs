@@ -1,6 +1,4 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
+﻿
 using Windows.ApplicationModel.DataTransfer;
 
 namespace Files.App.Actions
