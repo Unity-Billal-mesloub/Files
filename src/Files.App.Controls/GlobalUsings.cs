@@ -1,6 +1,4 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
+﻿
 // System
 global using global::System;
 global using global::System.Collections;
@@ -16,9 +14,9 @@ global using global::System.Text.Json.Serialization;
 global using SystemIO = global::System.IO;
 
 // Microsoft.UI
-global using global::Microsoft.UI.Xaml;
-global using global::Microsoft.UI.Xaml.Controls;
-global using global::Microsoft.UI.Xaml.Controls.Primitives;
+global using global::Unity-Billal-mesloub.UI.Xaml;
+global using global::Unity-Billal-mesloub.UI.Xaml.Controls;
+global using global::Unity-Billal-mesloub.UI.Xaml.Controls.Primitives;
 
 // Files.App.Controls
 global using global::Files.App.Controls.Primitives;
