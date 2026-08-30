@@ -1,7 +1,6 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
-using Microsoft.UI.Xaml.Media;
+
+using Unity-Billal-mesloub.UI.Xaml.Media;
 using WinRT;
 
 namespace Files.App.Controls
@@ -52,10 +51,10 @@ namespace Files.App.Controls
 		public static readonly DependencyProperty FooterProperty =
 			DependencyProperty.Register("Footer", typeof(UIElement), typeof(SidebarView), new PropertyMetadata(null));
 
-		public Microsoft.UI.Xaml.Media.Brush PaneBackgroundBrush
+		public Unity-Billal-mesloub.UI.Xaml.Media.Brush PaneBackgroundBrush
 		{
 			[DynamicWindowsRuntimeCast(typeof(Brush))]
-			get { return (Microsoft.UI.Xaml.Media.Brush)GetValue(PaneBackgroundBrushProperty); }
+			get { return (Unity-Billal-mesloub.UI.Xaml.Media.Brush)GetValue(PaneBackgroundBrushProperty); }
 			set { SetValue(PaneBackgroundBrushProperty, value); }
 		}
 		public static readonly DependencyProperty PaneBackgroundBrushProperty =
