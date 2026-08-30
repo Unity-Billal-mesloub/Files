@@ -1,7 +1,5 @@
-﻿// Copyright (c) Files Community
-// SPDX-License-Identifier: MPL-2.0
-
-using Microsoft.Extensions.Logging;
+﻿
+using Unity-Billal-mesloub.Extensions.Logging;
 using System.Collections.Concurrent;
 using System.Runtime.ExceptionServices;
 using System.Threading.Channels;
