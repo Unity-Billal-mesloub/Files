@@ -1,9 +1,7 @@
-﻿// Licensed to the .NET Foundation under one or more agreements.
-// The .NET Foundation licenses this file to you under the MIT license.
-
-using Microsoft.UI.Input;
-using Microsoft.UI.Xaml.Input;
-using Microsoft.UI.Xaml.Media;
+﻿
+using Unity-Billal-mesloub.UI.Input;
+using Unity-Billal-mesloub.UI.Xaml.Input;
+using Unity-Billal-mesloub.UI.Xaml.Media;
 using Windows.System;
 using Windows.UI.Core;
 
@@ -61,8 +59,8 @@ namespace Files.App.Controls
 					Text = _resizeDirection == GridResizeDirection.Columns ? GripperBarVertical : GripperBarHorizontal
 				};
 				_gripperDisplay.SetValue(
-					Microsoft.UI.Xaml.Automation.AutomationProperties.AccessibilityViewProperty,
-					Microsoft.UI.Xaml.Automation.Peers.AccessibilityView.Raw);
+					Unity-Billal-mesloub.UI.Xaml.Automation.AutomationProperties.AccessibilityViewProperty,
+					Unity-Billal-mesloub.UI.Xaml.Automation.Peers.AccessibilityView.Raw);
 			}
 		}
 
