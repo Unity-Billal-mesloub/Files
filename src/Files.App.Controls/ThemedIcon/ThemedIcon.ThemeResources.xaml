@@ -5,7 +5,7 @@
 	xmlns:local="using:Files.App.Controls">
 
 	<ResourceDictionary.MergedDictionaries>
-		<XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+		<XamlControlsResources xmlns="using:Unity-Billal-mesloub.UI.Xaml.Controls" />
 	</ResourceDictionary.MergedDictionaries>
 
 	<ResourceDictionary.ThemeDictionaries>
