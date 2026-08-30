@@ -1,8 +1,6 @@
-﻿// Copyright (c) Files Community
-// SPDX-License-Identifier: MPL-2.0
-
-using Microsoft.UI.Input;
-using Microsoft.UI.Xaml.Input;
+﻿
+using Unity-Billal-mesloub.UI.Input;
+using Unity-Billal-mesloub.UI.Xaml.Input;
 using WinRT;
 
 namespace Files.App.Controls
