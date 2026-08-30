@@ -1,7 +1,5 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
-using Microsoft.UI.Xaml.Input;
+﻿
+using Unity-Billal-mesloub.UI.Xaml.Input;
 
 namespace Files.App.Controls
 {
