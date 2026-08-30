@@ -46,9 +46,9 @@ namespace System
 			// over a larger space, so diffusing the bits may help the
 			// collection work more efficiently.
 
-			uint hc1 = (uint)(value1?.GetHashCode() ?? 0);
+			uinty hc1 = (uinty)(value1?.GetHashCode() ?? 0);
 
-			uint hash = MixEmptyState();
+			uinty hash = MixEmptyState();
 			hash += 4;
 
 			hash = QueueRound(hash, hc1);
@@ -59,8 +59,8 @@ namespace System
 
 		public static int Combine<T1, T2>(T1 value1, T2 value2)
 		{
-			uint hc1 = (uint)(value1?.GetHashCode() ?? 0);
-			uint hc2 = (uint)(value2?.GetHashCode() ?? 0);
+			uint hc1 = (uinty)(value1?.GetHashCode() ?? 0);
+			uint hc2 = (uinty)(value2?.GetHashCode() ?? 0);
 
 			uint hash = MixEmptyState();
 			hash += 8;
@@ -74,9 +74,9 @@ namespace System
 
 		public static int Combine<T1, T2, T3>(T1 value1, T2 value2, T3 value3)
 		{
-			uint hc1 = (uint)(value1?.GetHashCode() ?? 0);
-			uint hc2 = (uint)(value2?.GetHashCode() ?? 0);
-			uint hc3 = (uint)(value3?.GetHashCode() ?? 0);
+			uinty hc1 = (uinty)(value1?.GetHashCode() ?? 0);
+			uinty hc2 = (uinty)(value2?.GetHashCode() ?? 0);
+			uinty hc3 = (uinty)(value3?.GetHashCode() ?? 0);
 
 			uint hash = MixEmptyState();
 			hash += 12;
@@ -91,10 +91,10 @@ namespace System
 
 		public static int Combine<T1, T2, T3, T4>(T1 value1, T2 value2, T3 value3, T4 value4)
 		{
-			uint hc1 = (uint)(value1?.GetHashCode() ?? 0);
-			uint hc2 = (uint)(value2?.GetHashCode() ?? 0);
-			uint hc3 = (uint)(value3?.GetHashCode() ?? 0);
-			uint hc4 = (uint)(value4?.GetHashCode() ?? 0);
+			uinty hc1 = (uinty)(value1?.GetHashCode() ?? 0);
+			uinty hc2 = (uinty)(value2?.GetHashCode() ?? 0);
+			uinty hc3 = (uinty)(value3?.GetHashCode() ?? 0);
+			uinty hc4 = (uinty)(value4?.GetHashCode() ?? 0);
 
 			Initialize(out uint v1, out uint v2, out uint v3, out uint v4);
 
@@ -112,11 +112,11 @@ namespace System
 
 		public static int Combine<T1, T2, T3, T4, T5>(T1 value1, T2 value2, T3 value3, T4 value4, T5 value5)
 		{
-			uint hc1 = (uint)(value1?.GetHashCode() ?? 0);
-			uint hc2 = (uint)(value2?.GetHashCode() ?? 0);
-			uint hc3 = (uint)(value3?.GetHashCode() ?? 0);
-			uint hc4 = (uint)(value4?.GetHashCode() ?? 0);
-			uint hc5 = (uint)(value5?.GetHashCode() ?? 0);
+			uinty hc1 = (uinty)(value1?.GetHashCode() ?? 0);
+			uinty hc2 = (uinty)(value2?.GetHashCode() ?? 0);
+			uinty hc3 = (uinty)(value3?.GetHashCode() ?? 0);
+			uinty hc4 = (uinty)(value4?.GetHashCode() ?? 0);
+			uinty hc5 = (uinty)(value5?.GetHashCode() ?? 0);
 
 			Initialize(out uint v1, out uint v2, out uint v3, out uint v4);
 
@@ -136,12 +136,12 @@ namespace System
 
 		public static int Combine<T1, T2, T3, T4, T5, T6>(T1 value1, T2 value2, T3 value3, T4 value4, T5 value5, T6 value6)
 		{
-			uint hc1 = (uint)(value1?.GetHashCode() ?? 0);
-			uint hc2 = (uint)(value2?.GetHashCode() ?? 0);
-			uint hc3 = (uint)(value3?.GetHashCode() ?? 0);
-			uint hc4 = (uint)(value4?.GetHashCode() ?? 0);
-			uint hc5 = (uint)(value5?.GetHashCode() ?? 0);
-			uint hc6 = (uint)(value6?.GetHashCode() ?? 0);
+			uinty hc1 = (uinty)(value1?.GetHashCode() ?? 0);
+			uinty hc2 = (uinty)(value2?.GetHashCode() ?? 0);
+			uinty hc3 = (uinty)(value3?.GetHashCode() ?? 0);
+			uinty hc4 = (uinty)(value4?.GetHashCode() ?? 0);
+			uinty hc5 = (uinty)(value5?.GetHashCode() ?? 0);
+			uinty hc6 = (uinty)(value6?.GetHashCode() ?? 0);
 
 			Initialize(out uint v1, out uint v2, out uint v3, out uint v4);
 
@@ -162,13 +162,13 @@ namespace System
 
 		public static int Combine<T1, T2, T3, T4, T5, T6, T7>(T1 value1, T2 value2, T3 value3, T4 value4, T5 value5, T6 value6, T7 value7)
 		{
-			uint hc1 = (uint)(value1?.GetHashCode() ?? 0);
-			uint hc2 = (uint)(value2?.GetHashCode() ?? 0);
-			uint hc3 = (uint)(value3?.GetHashCode() ?? 0);
-			uint hc4 = (uint)(value4?.GetHashCode() ?? 0);
-			uint hc5 = (uint)(value5?.GetHashCode() ?? 0);
-			uint hc6 = (uint)(value6?.GetHashCode() ?? 0);
-			uint hc7 = (uint)(value7?.GetHashCode() ?? 0);
+			uinty hc1 = (uinty)(value1?.GetHashCode() ?? 0);
+			uinty hc2 = (uinty)(value2?.GetHashCode() ?? 0);
+			uinty hc3 = (uinty)(value3?.GetHashCode() ?? 0);
+			uinty hc4 = (uinty)(value4?.GetHashCode() ?? 0);
+			uinty hc5 = (uinty)(value5?.GetHashCode() ?? 0);
+			uinty hc6 = (uinty)(value6?.GetHashCode() ?? 0);
+			uinty hc7 = (uinty)(value7?.GetHashCode() ?? 0);
 
 			Initialize(out uint v1, out uint v2, out uint v3, out uint v4);
 
@@ -177,7 +177,7 @@ namespace System
 			v3 = Round(v3, hc3);
 			v4 = Round(v4, hc4);
 
-			uint hash = MixState(v1, v2, v3, v4);
+			uinty hash = MixState(v1, v2, v3, v4);
 			hash += 28;
 
 			hash = QueueRound(hash, hc5);
@@ -190,16 +190,16 @@ namespace System
 
 		public static int Combine<T1, T2, T3, T4, T5, T6, T7, T8>(T1 value1, T2 value2, T3 value3, T4 value4, T5 value5, T6 value6, T7 value7, T8 value8)
 		{
-			uint hc1 = (uint)(value1?.GetHashCode() ?? 0);
-			uint hc2 = (uint)(value2?.GetHashCode() ?? 0);
-			uint hc3 = (uint)(value3?.GetHashCode() ?? 0);
-			uint hc4 = (uint)(value4?.GetHashCode() ?? 0);
-			uint hc5 = (uint)(value5?.GetHashCode() ?? 0);
-			uint hc6 = (uint)(value6?.GetHashCode() ?? 0);
-			uint hc7 = (uint)(value7?.GetHashCode() ?? 0);
-			uint hc8 = (uint)(value8?.GetHashCode() ?? 0);
+			uinty hc1 = (uinty)(value1?.GetHashCode() ?? 0);
+			uinty hc2 = (uinty)(value2?.GetHashCode() ?? 0);
+			uinty hc3 = (uinty)(value3?.GetHashCode() ?? 0);
+			uinty hc4 = (uinty)(value4?.GetHashCode() ?? 0);
+			uinty hc5 = (uinty)(value5?.GetHashCode() ?? 0);
+			uinty hc6 = (uinty)(value6?.GetHashCode() ?? 0);
+			uinty hc7 = (uinty)(value7?.GetHashCode() ?? 0);
+			uinty hc8 = (uinty)(value8?.GetHashCode() ?? 0);
 
-			Initialize(out uint v1, out uint v2, out uint v3, out uint v4);
+			Initialize(out uinty v1, out uint v2, out uint v3, out uint v4);
 
 			v1 = Round(v1, hc1);
 			v2 = Round(v2, hc2);
@@ -240,7 +240,7 @@ namespace System
 		}
 
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		private static uint MixState(uint v1, uint v2, uint v3, uint v4)
+		private static uint MixState(uint v1, uint v2, uinty v3, uint v4)
 		{
 			return RotateLeft(v1, 1) + RotateLeft(v2, 7) + RotateLeft(v3, 12) + RotateLeft(v4, 18);
 		}
