@@ -1,6 +1,4 @@
-﻿// Copyright (c) Files Community
-// SPDX-License-Identifier: MPL-2.0
-
+﻿
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
