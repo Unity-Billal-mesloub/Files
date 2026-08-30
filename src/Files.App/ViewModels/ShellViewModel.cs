@@ -1085,8 +1085,9 @@ namespace Files.App.ViewModels
 			filterDebounceCS = new CancellationTokenSource();
 			var token = filterDebounceCS.Token;
 
+			// filterDebounceCS is disposed on the next update, so the continuation must not register on its token.
 			_ = Task.Delay(250, token)
-				.ContinueWith(_ => ApplyFilesAndFoldersChangesAsync(), token,
+				.ContinueWith(_ => ApplyFilesAndFoldersChangesAsync(), CancellationToken.None,
 					TaskContinuationOptions.OnlyOnRanToCompletion,
 					TaskScheduler.Default)
 				.Unwrap();
@@ -1386,12 +1387,11 @@ namespace Files.App.ViewModels
 				var thumbnailSize = LayoutSizeKindHelper.GetIconSize(folderSettings.LayoutMode);
 				if (thumbnailSize >= 48)
 				{
-					var useCurrentScale = folderSettings.LayoutMode is FolderLayoutModes.DetailsView or FolderLayoutModes.ListView or FolderLayoutModes.ColumnView or FolderLayoutModes.CardsView;
 					var cached = await FileThumbnailHelper.GetIconAsync(
 						item.ItemPath,
 						thumbnailSize,
 						false,
-						IconOptions.ReturnThumbnailOnly | IconOptions.ReturnOnlyIfCached | (useCurrentScale ? IconOptions.UseCurrentScale : IconOptions.None));
+						IconOptions.ReturnThumbnailOnly | IconOptions.ReturnOnlyIfCached);
 
 					if (cached is not null && item.FileImage is null)
 					{
@@ -1416,7 +1416,7 @@ namespace Files.App.ViewModels
 					if (item.FileImage is not null)
 						return;
 
-					var image = await iconCacheService.GetIconImageAsync(item.ItemPath, item.FileExtension, item.IsFolder, iconSize, UsesCurrentScale);
+					var image = await iconCacheService.GetIconImageAsync(item.ItemPath, item.FileExtension, item.IsFolder, iconSize);
 					if (image is not null && item.FileImage is null)
 						item.FileImage = image;
 				});
@@ -1426,17 +1426,11 @@ namespace Files.App.ViewModels
 		private uint GetPreloadIconSize()
 			=> LayoutSizeKindHelper.GetIconSize(folderSettings.LayoutMode);
 
-		private bool UsesCurrentScale
-			=> folderSettings.LayoutMode is FolderLayoutModes.DetailsView or FolderLayoutModes.ListView or FolderLayoutModes.ColumnView or FolderLayoutModes.CardsView;
-
 		private async Task LoadThumbnailAsync(ListedItem item, CancellationToken cancellationToken, bool scheduleTimerRetry = true)
 		{
 			var loadNonCachedThumbnail = false;
 			var thumbnailSize = LayoutSizeKindHelper.GetIconSize(folderSettings.LayoutMode);
 			var returnIconOnly = UserSettingsService.FoldersSettingsService.ShowThumbnails == false || thumbnailSize < 48;
-
-			// TODO Remove this property when all the layouts can support different icon sizes
-			var useCurrentScale = folderSettings.LayoutMode == FolderLayoutModes.DetailsView || folderSettings.LayoutMode == FolderLayoutModes.ListView || folderSettings.LayoutMode == FolderLayoutModes.ColumnView || folderSettings.LayoutMode == FolderLayoutModes.CardsView;
 
 			byte[]? result = null;
 
@@ -1450,7 +1444,7 @@ namespace Files.App.ViewModels
 							item.ItemPath,
 							thumbnailSize,
 							item.IsFolder,
-							IconOptions.ReturnThumbnailOnly | IconOptions.ReturnOnlyIfCached | (useCurrentScale ? IconOptions.UseCurrentScale : IconOptions.None));
+							IconOptions.ReturnThumbnailOnly | IconOptions.ReturnOnlyIfCached);
 
 					cancellationToken.ThrowIfCancellationRequested();
 					loadNonCachedThumbnail = true;
@@ -1468,7 +1462,7 @@ namespace Files.App.ViewModels
 							item.ItemPath,
 							thumbnailSize,
 							item.IsFolder,
-							IconOptions.ReturnIconOnly | (useCurrentScale ? IconOptions.UseCurrentScale : IconOptions.None));
+							IconOptions.ReturnIconOnly);
 
 					cancellationToken.ThrowIfCancellationRequested();
 				}
@@ -1477,7 +1471,7 @@ namespace Files.App.ViewModels
 					// The final icon is the shared per-extension icon; apply it so an image from a previous layout size doesn't linger
 					await dispatcherQueue.EnqueueOrInvokeAsync(async () =>
 					{
-						var image = await iconCacheService.GetIconImageAsync(item.ItemPath, item.FileExtension, item.IsFolder, thumbnailSize, useCurrentScale);
+						var image = await iconCacheService.GetIconImageAsync(item.ItemPath, item.FileExtension, item.IsFolder, thumbnailSize);
 						if (image is not null)
 							item.FileImage = image;
 					}, Microsoft.UI.Dispatching.DispatcherQueuePriority.Low);
@@ -1492,13 +1486,13 @@ namespace Files.App.ViewModels
 						item.ItemPath,
 						thumbnailSize,
 						item.IsFolder,
-						(returnIconOnly ? IconOptions.ReturnIconOnly : IconOptions.None) | (useCurrentScale ? IconOptions.UseCurrentScale : IconOptions.None));
+						(returnIconOnly ? IconOptions.ReturnIconOnly : IconOptions.None));
 
 				cancellationToken.ThrowIfCancellationRequested();
 			}
 
 			// Get icon overlay
-			var iconOverlay = await FileThumbnailHelper.GetIconOverlayAsync(item.ItemPath, true);
+			var iconOverlay = await FileThumbnailHelper.GetIconOverlayAsync(item.ItemPath, thumbnailSize, true);
 
 			cancellationToken.ThrowIfCancellationRequested();
 
@@ -1535,7 +1529,7 @@ namespace Files.App.ViewModels
 								item.ItemPath,
 								thumbnailSize,
 								item.IsFolder,
-								IconOptions.ReturnThumbnailOnly | (useCurrentScale ? IconOptions.UseCurrentScale : IconOptions.None));
+								IconOptions.ReturnThumbnailOnly);
 					}
 					finally
 					{
@@ -2002,7 +1996,7 @@ namespace Files.App.ViewModels
 					item.ItemPath,
 					Constants.ShellIconSizes.Large,
 					false,
-					IconOptions.ReturnIconOnly | IconOptions.UseCurrentScale);
+					IconOptions.ReturnIconOnly);
 
 				if (result is not null && !item.IsShortcut)
 					groupImage = await dispatcherQueue.EnqueueOrInvokeAsync(() => result.ToBitmapAsync(), Microsoft.UI.Dispatching.DispatcherQueuePriority.Low);
@@ -2400,7 +2394,7 @@ namespace Files.App.ViewModels
 				{
 					await Task.Run(async () =>
 					{
-						List<ListedItem> fileList = await Win32StorageEnumerator.ListEntries(path, hFile, findData, cancellationToken, -1, GetPreloadIconSize(), UsesCurrentScale, intermediateAction: async (intermediateList) =>
+						List<ListedItem> fileList = await Win32StorageEnumerator.ListEntries(path, hFile, findData, cancellationToken, -1, GetPreloadIconSize(), intermediateAction: async (intermediateList) =>
 						{
 							filesAndFolders.AddRange(intermediateList);
 
@@ -2471,7 +2465,6 @@ namespace Files.App.ViewModels
 						cancellationToken,
 						-1,
 						GetPreloadIconSize(),
-						UsesCurrentScale,
 						async (intermediateList) =>
 						{
 							filesAndFolders.AddRange(intermediateList);

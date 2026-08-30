@@ -256,8 +256,11 @@ namespace Files.App.Utils.Storage
 			return expression;
 		}
 
-		private bool MatchesTagExpression(IEnumerable<string> fileTags, TagQueryExpression expression)
+		private bool MatchesTagExpression(IEnumerable<string>? fileTags, TagQueryExpression expression)
 		{
+			// Imported/synced tag entries can deserialize with a null Tags array, which would NRE on fileTags.Contains below.
+			fileTags ??= [];
+
 			foreach (var orGroup in expression.OrGroups)
 			{
 				bool groupMatches = true;
@@ -537,7 +540,7 @@ namespace Files.App.Utils.Storage
 						itemPath,
 						Constants.ShellIconSizes.Small,
 						false,
-						IconOptions.ReturnIconOnly | IconOptions.UseCurrentScale);
+						IconOptions.ReturnIconOnly);
 					if (iconResult is not null)
 						shortcutItem.FileImage = await iconResult.ToBitmapAsync();
 				}
@@ -668,7 +671,7 @@ namespace Files.App.Utils.Storage
 					listedItem.ItemPath,
 					Constants.ShellIconSizes.Small,
 					isFolder,
-					IconOptions.ReturnIconOnly | IconOptions.UseCurrentScale)
+					IconOptions.ReturnIconOnly)
 					.ContinueWith((t) =>
 					{
 						if (t.IsCompletedSuccessfully && t.Result is not null)
@@ -825,7 +828,7 @@ namespace Files.App.Utils.Storage
 					item.Path,
 					Constants.ShellIconSizes.Small,
 					item.IsOfType(StorageItemTypes.Folder),
-					IconOptions.ReturnIconOnly | IconOptions.UseCurrentScale);
+					IconOptions.ReturnIconOnly);
 
 				if (iconResult is not null)
 					listedItem.FileImage = await iconResult.ToBitmapAsync();
