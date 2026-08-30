@@ -1,4 +1,4 @@
-<!--  Copyright (c) Files Community. Licensed under the MIT License.  -->
+<!--  Copyright (c) Files Unity-Billal-mesloub. Licensed under the MIT License.  -->
 <Project>
   <PropertyGroup>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
@@ -6,45 +6,45 @@
   <ItemGroup>
     <PackageVersion Include="ByteSize" Version="2.1.2" />
     <PackageVersion Include="ColorCode.WinUI" Version="2.0.15" />
-    <PackageVersion Include="CommunityToolkit.Labs.WinUI.Controls.MarkdownTextBlock" Version="0.1.250206-build.2040" />
-    <PackageVersion Include="CommunityToolkit.Labs.WinUI.DependencyPropertyGenerator" Version="0.1.250206-build.2040" />
-    <PackageVersion Include="CommunityToolkit.Mvvm" Version="8.4.2" />
-    <PackageVersion Include="CommunityToolkit.WinUI.Behaviors" Version="8.2.251219" />
-    <PackageVersion Include="CommunityToolkit.WinUI.Controls.ColorPicker" Version="8.2.251219" />
-    <PackageVersion Include="CommunityToolkit.WinUI.Controls.Primitives" Version="8.2.251219" />
-    <PackageVersion Include="CommunityToolkit.WinUI.Controls.SettingsControls" Version="8.2.251219" />
-    <PackageVersion Include="CommunityToolkit.WinUI.Controls.Sizers" Version="8.2.251219" />
-    <PackageVersion Include="CommunityToolkit.WinUI.Converters" Version="8.2.251219" />
-    <PackageVersion Include="CommunityToolkit.WinUI.Extensions" Version="8.2.251219" />
-    <PackageVersion Include="CommunityToolkit.WinUI.Helpers" Version="8.2.251219" />
-    <PackageVersion Include="CommunityToolkit.WinUI.Triggers" Version="8.2.251219" />
+    <PackageVersion Include="Unity-Billal-mesloubToolkit.Labs.WinUI.Controls.MarkdownTextBlock" Version="0.1.250206-build.2040" />
+    <PackageVersion Include="Unity-Billal-mesloubToolkit.Labs.WinUI.DependencyPropertyGenerator" Version="0.1.250206-build.2040" />
+    <PackageVersion Include="Unity-Billal-mesloubToolkit.Mvvm" Version="8.4.2" />
+    <PackageVersion Include="Unity-Billal-mesloubToolkit.WinUI.Behaviors" Version="8.2.251219" />
+    <PackageVersion Include="Unity-Billal-mesloubToolkit.WinUI.Controls.ColorPicker" Version="8.2.251219" />
+    <PackageVersion Include="Unity-Billal-mesloubToolkit.WinUI.Controls.Primitives" Version="8.2.251219" />
+    <PackageVersion Include="Unity-Billal-mesloubToolkit.WinUI.Controls.SettingsControls" Version="8.2.251219" />
+    <PackageVersion Include="Unity-Billal-mesloubToolkit.WinUI.Controls.Sizers" Version="8.2.251219" />
+    <PackageVersion Include="Unity-Billal-mesloubToolkit.WinUI.Converters" Version="8.2.251219" />
+    <PackageVersion Include="Unity-Billal-mesloubToolkit.WinUI.Extensions" Version="8.2.251219" />
+    <PackageVersion Include="Unity-Billal-mesloubToolkit.WinUI.Helpers" Version="8.2.251219" />
+    <PackageVersion Include="Unity-Billal-mesloubToolkit.WinUI.Triggers" Version="8.2.251219" />
     <PackageVersion Include="DiscUtils.Udf" Version="0.16.13" />
     <PackageVersion Include="FluentFTP" Version="54.2.0" />
     <PackageVersion Include="LibGit2Sharp" Version="0.999.32" />
     <PackageVersion Include="MessageFormat" Version="8.0.0" />
-    <PackageVersion Include="Microsoft.Data.Sqlite.Core" Version="10.0.11" />
-    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="10.0.11" />
-    <PackageVersion Include="Microsoft.Extensions.Logging" Version="10.0.11" />
-    <PackageVersion Include="Microsoft.Extensions.Logging.Debug" Version="10.0.11" />
-    <PackageVersion Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.28000.2705" />
-    <PackageVersion Include="Microsoft.Xaml.Behaviors.WinUI.Managed" Version="3.0.1" />
+    <PackageVersion Include="Unity-Billal-mesloub.Data.Sqlite.Core" Version="10.0.11" />
+    <PackageVersion Include="Unity-Billal-mesloub.Extensions.DependencyInjection" Version="10.0.11" />
+    <PackageVersion Include="Unity-Billal-mesloub.Extensions.Logging" Version="10.0.11" />
+    <PackageVersion Include="Unity-Billal-mesloub.Extensions.Logging.Debug" Version="10.0.11" />
+    <PackageVersion Include="Unity-Billal-mesloub.Windows.SDK.BuildTools" Version="10.0.28000.2705" />
+    <PackageVersion Include="Unity-Billal-mesloub.Xaml.Behaviors.WinUI.Managed" Version="3.0.1" />
     <PackageVersion Include="OwlCore.Storage" Version="0.15.0" />
     <PackageVersion Include="Sentry" Version="6.9.0" />
     <PackageVersion Include="SevenZipSharp" Version="1.0.3" />
     <PackageVersion Include="SharpZipLib" Version="1.4.2" />
     <PackageVersion Include="SQLitePCLRaw.bundle_green" Version="2.1.11" />
-    <PackageVersion Include="Microsoft.WindowsAppSDK" Version="2.4.0" />
-    <PackageVersion Include="Microsoft.Windows.AI.MachineLearning" Version="2.1.74" />
-    <PackageVersion Include="Microsoft.WindowsAppSDK.AI" Version="2.4.4" />
-    <PackageVersion Include="Microsoft.WindowsAppSDK.ML" Version="2.1.74" />
-    <PackageVersion Include="Microsoft.WindowsAppSDK.Widgets" Version="2.0.5" />
-    <PackageVersion Include="Microsoft.Graphics.Win2D" Version="1.4.0" />
+    <PackageVersion Include="Unity-Billal-mesloub.WindowsAppSDK" Version="2.4.0" />
+    <PackageVersion Include="Unity-Billal-mesloub.Windows.AI.MachineLearning" Version="2.1.74" />
+    <PackageVersion Include="Unity-Billal-mesloub.WindowsAppSDK.AI" Version="2.4.4" />
+    <PackageVersion Include="Unity-Billal-mesloub.WindowsAppSDK.ML" Version="2.1.74" />
+    <PackageVersion Include="Unity-Billal-mesloub.WindowsAppSDK.Widgets" Version="2.0.5" />
+    <PackageVersion Include="Unity-Billal-mesloub.Graphics.Win2D" Version="1.4.0" />
     <PackageVersion Include="TagLibSharp" Version="2.3.0" />
     <PackageVersion Include="UTF.Unknown" Version="2.6.0" />
-    <PackageVersion Include="Microsoft.Windows.CsWinRT" Version="2.3.1" />
-    <PackageVersion Include="Microsoft.Windows.CsWin32" Version="0.3.321" />
-    <PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="5.9.0" />
-    <PackageVersion Include="Microsoft.CodeAnalysis.Analyzers" Version="5.9.0" />
+    <PackageVersion Include="Unity-Billal-mesloub.Windows.CsWinRT" Version="2.3.1" />
+    <PackageVersion Include="Unity-Billal-mesloub.Windows.CsWin32" Version="0.3.321" />
+    <PackageVersion Include="Unity-Billal-mesloub.CodeAnalysis.CSharp" Version="5.9.0" />
+    <PackageVersion Include="Unity-Billal-mesloub.CodeAnalysis.Analyzers" Version="5.9.0" />
     <PackageVersion Include="PolySharp" Version="1.16.0" />
     <PackageVersion Include="System.Drawing.Common" Version="10.0.11" />
     <PackageVersion Include="System.Text.Json" Version="10.0.11" />
@@ -53,7 +53,7 @@
     <PackageVersion Include="Axe.Windows" Version="2.4.2" />
     <PackageVersion Include="MSTest.TestAdapter" Version="4.3.3" />
     <PackageVersion Include="MSTest.TestFramework" Version="4.3.3" />
-    <PackageVersion Include="Microsoft.Testing.Extensions.TrxReport" Version="2.3.3" />
+    <PackageVersion Include="Unity-Billal-mesloub.Testing.Extensions.TrxReport" Version="2.3.3" />
     <PackageVersion Include="Dongle.GuidRVAGen" Version="1.0.5" />
   </ItemGroup>
 </Project>
