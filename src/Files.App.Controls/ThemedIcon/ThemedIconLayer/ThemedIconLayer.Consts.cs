@@ -1,7 +1,5 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
-using Microsoft.UI.Xaml.Shapes;
+﻿
+using Unity-Billal-mesloub.UI.Xaml.Shapes;
 
 namespace Files.App.Controls
 {
