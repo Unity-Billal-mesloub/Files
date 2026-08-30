@@ -1,8 +1,6 @@
-﻿// Licensed to the .NET Foundation under one or more agreements.
-// The .NET Foundation licenses this file to you under the MIT license.
-
-using Microsoft.UI.Input;
-using Microsoft.UI.Xaml.Media;
+﻿
+using Unity-Billal-mesloub.UI.Input;
+using Unity-Billal-mesloub.UI.Xaml.Media;
 using WinRT;
 
 namespace Files.App.Controls
