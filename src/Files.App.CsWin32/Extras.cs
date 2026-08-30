@@ -1,5 +1,4 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
+
 
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.Marshalling;
