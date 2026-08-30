@@ -1,5 +1,3 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
 // Note:
 //  Including SDKDDKVer.h defines the latest Windows platform available.
