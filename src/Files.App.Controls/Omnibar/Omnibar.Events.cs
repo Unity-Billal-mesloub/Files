@@ -1,7 +1,5 @@
-﻿// Copyright (c) Files Community
-// SPDX-License-Identifier: MPL-2.0
-
-using Microsoft.UI.Xaml.Input;
+﻿
+using Unity-Billal-mesloub.UI.Xaml.Input;
 using Windows.System;
 using WinRT;
 
@@ -68,7 +66,7 @@ namespace Files.App.Controls
 		private void AutoSuggestBox_LostFocus(object sender, RoutedEventArgs e)
 		{
 			// TextBox still has focus if the context menu for selected text is open
-			var element = Microsoft.UI.Xaml.Input.FocusManager.GetFocusedElement(this.XamlRoot);
+			var element = Unity-Billal-mesloub.UI.Xaml.Input.FocusManager.GetFocusedElement(this.XamlRoot);
 			if (element is FlyoutBase or Popup)
 				return;
 
