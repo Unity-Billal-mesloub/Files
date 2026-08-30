@@ -1,5 +1,5 @@
-﻿<!--  Copyright (c) Files Community. Licensed under the MIT License.  -->
-<Project Sdk="Microsoft.NET.Sdk">
+﻿
+<Project Sdk="Unity-Billal-mesloub.NET.Sdk">
 
     <PropertyGroup>
         <OutputType>WinExe</OutputType>
@@ -33,7 +33,7 @@
     <ItemGroup>
         <Manifest Include="app.manifest" />
         <TrimmerRootAssembly Include="Files.App.Server" />
-        <PackageReference Include="Microsoft.Windows.CsWinRT" />
+        <PackageReference Include="Unity-Billal-mesloub.Windows.CsWinRT" />
     </ItemGroup>
 
     <ItemGroup>
