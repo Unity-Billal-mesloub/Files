@@ -1,5 +1,4 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
+﻿
 
 using OwlCore.Storage.System.IO;
 using System.IO;
