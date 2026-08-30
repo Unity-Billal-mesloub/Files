@@ -1,7 +1,5 @@
-﻿// Copyright (c) Files Community
-// SPDX-License-Identifier: MPL-2.0
-
-using Microsoft.UI.Xaml.Markup;
+﻿
+using Unity-Billal-mesloub.UI.Xaml.Markup;
 
 namespace Files.App.Controls
 {
