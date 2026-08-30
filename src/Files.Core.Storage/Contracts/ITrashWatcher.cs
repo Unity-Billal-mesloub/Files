@@ -1,5 +1,4 @@
-// Copyright (c) 2023 Files Community
-// Licensed under the MIT License.
+
 
 namespace Files.Core.Storage.Contracts
 {
