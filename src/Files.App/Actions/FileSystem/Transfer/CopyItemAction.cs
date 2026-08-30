@@ -1,6 +1,4 @@
-﻿// Copyright (c) Files Community
-// SPDX-License-Identifier: MPL-2.0
-
+﻿
 using Windows.ApplicationModel.DataTransfer;
 
 namespace Files.App.Actions
