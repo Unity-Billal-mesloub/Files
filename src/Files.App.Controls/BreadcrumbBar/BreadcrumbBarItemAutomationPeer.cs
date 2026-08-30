@@ -1,8 +1,6 @@
-﻿// Copyright (c) Files Community
-// SPDX-License-Identifier: MPL-2.0
 
-using Microsoft.UI.Xaml.Automation.Peers;
-using Microsoft.UI.Xaml.Automation.Provider;
+using Unity-Billal-mesloub.UI.Xaml.Automation.Peers;
+using Unity-Billal-mesloub.UI.Xaml.Automation.Provider;
 
 namespace Files.App.Controls
 {
