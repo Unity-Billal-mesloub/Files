@@ -1,5 +1,3 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
 using FluentFTP;
 using System.IO;
