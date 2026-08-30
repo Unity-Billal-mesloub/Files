@@ -1,8 +1,6 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
-using Microsoft.UI.Xaml.Controls.Primitives;
-using Microsoft.UI.Xaml.Input;
+﻿
+using Unity-Billal-mesloub.UI.Xaml.Controls.Primitives;
+using Unity-Billal-mesloub.UI.Xaml.Input;
 using System.Runtime.InteropServices;
 using WinRT;
 
