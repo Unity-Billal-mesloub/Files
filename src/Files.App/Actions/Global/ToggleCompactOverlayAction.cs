@@ -1,7 +1,5 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
-using Microsoft.UI.Windowing;
+﻿
+using Unity-Billal-mesloub.UI.Windowing;
 using Windows.Graphics;
 
 namespace Files.App.Actions
