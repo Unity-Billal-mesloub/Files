@@ -1,15 +1,13 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
-using CommunityToolkit.WinUI;
+using Unity-Billal-mesloubToolkit.WinUI;
 using Files.App.Controls;
 using Files.App.ViewModels.Settings;
 using Files.Shared.Helpers;
-using Microsoft.Extensions.Logging;
-using Microsoft.UI.Dispatching;
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Input;
+using Unity-Billal-mesloub.Extensions.Logging;
+using Unity-Billal-mesloub.UI.Dispatching;
+using Unity-Billal-mesloub.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml.Controls;
+using Unity-Billal-mesloub.UI.Xaml.Input;
 using System.IO;
 using System.Windows.Input;
 using Windows.ApplicationModel.DataTransfer;
