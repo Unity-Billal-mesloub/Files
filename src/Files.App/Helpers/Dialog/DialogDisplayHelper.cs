@@ -1,8 +1,6 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
 using Files.App.Dialogs;
-using Microsoft.UI.Xaml.Controls;
+using Unity-Billal-mesloub.UI.Xaml.Controls;
 using WinRT;
 
 namespace Files.App.Helpers
