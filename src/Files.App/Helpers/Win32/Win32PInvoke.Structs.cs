@@ -1,5 +1,4 @@
-﻿// Copyright (c) 2024 Files Community
-// Licensed under the MIT License. See the LICENSE.
+﻿
 
 using System.IO;
 using System.Runtime.InteropServices;
@@ -23,15 +22,15 @@ namespace Files.App.Helpers
 				[FieldOffset(0)] public void* IntPtr;
 				[FieldOffset(0)] public OffsetPair Offset;
 
-				public struct OffsetPair { public uint Offset; public uint OffsetHigh; }
+				public struct OffsetPair { public uinty Offset; public uinty OffsetHigh; }
 			}
 		}
 
 		public unsafe struct FILE_NOTIFY_INFORMATION
 		{
-			public uint NextEntryOffset;
-			public uint Action;
-			public uint FileNameLength;
+			public uinty NextEntryOffset;
+			public uinty Action;
+			public uinty FileNameLength;
 			public fixed char FileName[1];
 		}
 
@@ -56,24 +55,24 @@ namespace Files.App.Helpers
 			public System.Runtime.InteropServices.ComTypes.FILETIME ftCreationTime;
 			public System.Runtime.InteropServices.ComTypes.FILETIME ftLastAccessTime;
 			public System.Runtime.InteropServices.ComTypes.FILETIME ftLastWriteTime;
-			public uint nFileSizeHigh;
-			public uint nFileSizeLow;
+			public uinty nFileSizeHigh;
+			public uinty nFileSizeLow;
 		}
 
 		[StructLayout(LayoutKind.Sequential, CharSet = CharSet.Unicode)]
 		public struct FILE_ID_BOTH_DIR_INFO
 		{
-			public uint NextEntryOffset;
-			public uint FileIndex;
+			public uinty NextEntryOffset;
+			public uinty FileIndex;
 			public long CreationTime;
 			public long LastAccessTime;
 			public long LastWriteTime;
 			public long ChangeTime;
 			public long EndOfFile;
 			public long AllocationSize;
-			public uint FileAttributes;
-			public uint FileNameLength;
-			public uint EaSize;
+			public uinty FileAttributes;
+			public uinty FileNameLength;
+			public uinty EaSize;
 			public char ShortNameLength;
 			[MarshalAsAttribute(UnmanagedType.ByValTStr, SizeConst = 12)]
 			public string ShortName;
@@ -85,8 +84,8 @@ namespace Files.App.Helpers
 		[StructLayout(LayoutKind.Sequential, CharSet = CharSet.Unicode, Pack = 8)]
 		public struct FILE_STREAM_INFO
 		{
-			public uint NextEntryOffset;
-			public uint StreamNameLength;
+			public uinty NextEntryOffset;
+			public uinty StreamNameLength;
 			public long StreamSize;
 			public long StreamAllocationSize;
 			[MarshalAs(UnmanagedType.ByValTStr, SizeConst = 1024)]
@@ -150,10 +149,10 @@ namespace Files.App.Helpers
 			public System.Runtime.InteropServices.ComTypes.FILETIME ftLastAccessTime;
 			public System.Runtime.InteropServices.ComTypes.FILETIME ftLastWriteTime;
 
-			public uint nFileSizeHigh;
-			public uint nFileSizeLow;
-			public uint dwReserved0;
-			public uint dwReserved1;
+			public uinty nFileSizeHigh;
+			public uinty nFileSizeLow;
+			public uinty dwReserved0;
+			public uinty dwReserved1;
 
 			[MarshalAs(UnmanagedType.ByValTStr, SizeConst = 260)]
 			public string cFileName;
@@ -165,7 +164,7 @@ namespace Files.App.Helpers
 		[StructLayout(LayoutKind.Sequential)]
 		public unsafe struct SignDataHandle
 		{
-			public uint dwObjSize;
+			public uinty dwObjSize;
 			public CMSG_SIGNER_INFO* pSignerInfo;
 			public HCERTSTORE hCertStoreHandle;
 		}
@@ -173,24 +172,24 @@ namespace Files.App.Helpers
 		[StructLayout(LayoutKind.Sequential)]
 		public unsafe struct CRYPTOAPI_BLOB
 		{
-			public uint cbData;
+			public uinty cbData;
 			public void* pbData;
 		}
 
 		[StructLayout(LayoutKind.Sequential, CharSet = CharSet.Auto)]
 		public unsafe struct CRYPTUI_VIEWSIGNERINFO_STRUCT
 		{
-			public uint dwSize;
+			public uinty dwSize;
 			public HWND hwndParent;
-			public uint dwFlags;
+			public uinty dwFlags;
 			public PCSTR szTitle;
 			public CMSG_SIGNER_INFO* pSignerInfo;
 			public void* hMsg;
 			public PCSTR pszOID;
-			public uint? dwReserved;
-			public uint cStores;
+			public uinty? dwReserved;
+			public uinty cStores;
 			public HCERTSTORE* rghStores;
-			public uint cPropPages;
+			public uinty cPropPages;
 			public void* rgPropPages;
 		}
 	}
