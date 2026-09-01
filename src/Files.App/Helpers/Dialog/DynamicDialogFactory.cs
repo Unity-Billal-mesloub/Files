@@ -1,12 +1,11 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
+
 
 using Files.App.Dialogs;
-using Microsoft.UI;
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Data;
-using Microsoft.UI.Xaml.Media;
+using Unity-Billal-mesloub.UI;
+using Unity-Billal-mesloub.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml.Controls;
+using Unity-Billal-mesloub.UI.Xaml.Data;
+using Unity-Billal-mesloub.UI.Xaml.Media;
 using Windows.System;
 
 namespace Files.App.Helpers
