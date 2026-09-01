@@ -1,14 +1,12 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
 using Files.App.Services.SizeProvider;
 using Files.Shared.Helpers;
 using LibGit2Sharp;
-using Microsoft.Extensions.Logging;
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Data;
-using Microsoft.UI.Xaml.Media;
-using Microsoft.UI.Xaml.Media.Imaging;
+using Unity-Billal-mesloub.Extensions.Logging;
+using Unity-Billal-mesloub.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml.Data;
+using Unity-Billal-mesloub.UI.Xaml.Media;
+using Unity-Billal-mesloub.UI.Xaml.Media.Imaging;
 using System.Collections.Concurrent;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
@@ -22,7 +20,7 @@ using Windows.Win32;
 using Windows.Win32.System.SystemServices;
 using static Files.App.Helpers.Win32PInvoke;
 using ByteSize = ByteSizeLib.ByteSize;
-using DispatcherQueue = Microsoft.UI.Dispatching.DispatcherQueue;
+using DispatcherQueue = Unity-Billal-mesloub.UI.Dispatching.DispatcherQueue;
 using FileAttributes = System.IO.FileAttributes;
 
 namespace Files.App.ViewModels
