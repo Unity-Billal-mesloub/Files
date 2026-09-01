@@ -1,10 +1,8 @@
-// Copyright(c) Files Community
-// Licensed under the MIT License.
 
 using Files.App.Converters;
 using Files.Shared.Helpers;
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Data;
+using Unity-Billal-mesloub.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml.Data;
 using System.Collections.Concurrent;
 using System.IO;
 using Windows.Storage;
