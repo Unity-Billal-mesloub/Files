@@ -1,7 +1,5 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
-using Microsoft.UI.Dispatching;
+using Unity-Billal-mesloub.UI.Dispatching;
 using System.IO;
 using Windows.Storage.FileProperties;
 using FileAttributes = System.IO.FileAttributes;
