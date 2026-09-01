@@ -1,5 +1,5 @@
-﻿using Microsoft.Windows.AppNotifications;
-using Microsoft.Windows.AppNotifications.Builder;
+﻿using Unity-Billal-mesloub.Windows.AppNotifications;
+using Unity-Billal-mesloub.Windows.AppNotifications.Builder;
 
 namespace Files.App.Helpers.Application
 {
