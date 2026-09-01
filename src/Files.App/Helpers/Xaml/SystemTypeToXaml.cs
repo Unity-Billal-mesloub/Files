@@ -1,7 +1,5 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
-using Microsoft.UI.Xaml.Markup;
+using Unity-Billal-mesloub.UI.Xaml.Markup;
 
 namespace Files.App.Helpers
 {
