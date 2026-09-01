@@ -1,8 +1,7 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
-using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Media.Imaging;
+
+using Unity-Billal-mesloub.UI.Xaml.Controls;
+using Unity-Billal-mesloub.UI.Xaml.Media.Imaging;
 using System.IO;
 using Windows.Foundation.Metadata;
 using Windows.Graphics.Imaging;
