@@ -1,8 +1,6 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
+﻿
 using Files.App.Utils.Signatures;
-using Microsoft.UI.Windowing;
+using Unity-Billal-mesloub.UI.Windowing;
 using Windows.Win32.Foundation;
 
 namespace Files.App.ViewModels.Properties
