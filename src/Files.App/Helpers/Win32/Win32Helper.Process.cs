@@ -1,5 +1,3 @@
-// Copyright (c) 2024 Files Community
-// Licensed under the MIT License. See the LICENSE.
 
 using Windows.Win32;
 using Windows.Win32.Foundation;
