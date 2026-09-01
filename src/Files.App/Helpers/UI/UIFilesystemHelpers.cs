@@ -1,8 +1,6 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
 using Files.App.Dialogs;
-using Microsoft.Extensions.Logging;
+using Unity-Billal-mesloub.Extensions.Logging;
 using System.IO;
 using System.Net;
 using System.Text;
