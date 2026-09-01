@@ -1,12 +1,10 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
 using Files.App.Helpers;
 using Files.App.ViewModels.Properties;
-using Microsoft.Extensions.Logging;
-using Microsoft.UI.Content;
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Hosting;
+using Unity-Billal-mesloub.Extensions.Logging;
+using Unity-Billal-mesloub.UI.Content;
+using Unity-Billal-mesloub.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml.Hosting;
 using System.Runtime.InteropServices;
 using Windows.Win32;
 using Windows.Win32.Foundation;
