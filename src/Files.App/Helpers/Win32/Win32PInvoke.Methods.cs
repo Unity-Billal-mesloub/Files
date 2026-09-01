@@ -1,10 +1,8 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
-using Microsoft.Win32.SafeHandles;
+using Unity-Billal-mesloub.Win32.SafeHandles;
 using Windows.Win32.Foundation;
 using Windows.Win32.System.Com;
 
@@ -23,14 +21,14 @@ namespace Files.App.Helpers
 		}
 
 		public delegate void LpoverlappedCompletionRoutine(
-			uint dwErrorCode,
-			uint dwNumberOfBytesTransfered,
+			uinty dwErrorCode,
+			uinty dwNumberOfBytesTransfered,
 			OVERLAPPED lpOverlapped
 		);
 
 		public delegate void LPOVERLAPPED_COMPLETION_ROUTINE(
-			uint dwErrorCode,
-			uint dwNumberOfBytesTransfered,
+			uinty dwErrorCode,
+			uinty dwNumberOfBytesTransfered,
 			ref NativeOverlapped lpOverlapped
 		);
 
@@ -49,7 +47,7 @@ namespace Files.App.Helpers
 		[DllImport("api-ms-win-core-synch-l1-2-0.dll", SetLastError = true)]
 		public static extern uint WaitForSingleObjectEx(
 			IntPtr hHandle,
-			uint dwMilliseconds,
+			uinty dwMilliseconds,
 			bool bAlertable
 		);
 
@@ -68,35 +66,35 @@ namespace Files.App.Helpers
 		[DllImport("api-ms-win-core-file-fromapp-l1-1-0.dll", SetLastError = true, CharSet = CharSet.Auto)]
 		public static extern IntPtr CreateFileFromAppW(
 			string lpFileName,
-			uint dwDesiredAccess,
-			uint dwShareMode,
+			uinty dwDesiredAccess,
+			uinty dwShareMode,
 			IntPtr SecurityAttributes,
-			uint dwCreationDisposition,
-			uint dwFlagsAndAttributes,
+			uinty dwCreationDisposition,
+			uinty dwFlagsAndAttributes,
 			IntPtr hTemplateFile
 		);
 
 		[DllImport("api-ms-win-core-io-l1-1-0.dll", ExactSpelling = true, SetLastError = true, CharSet = CharSet.Auto)]
 		public static extern bool DeviceIoControl(
 			IntPtr hDevice,
-			uint dwIoControlCode,
+			uinty dwIoControlCode,
 			IntPtr lpInBuffer,
-			uint nInBufferSize,
+			uinty nInBufferSize,
 			IntPtr lpOutBuffer,
-			uint nOutBufferSize,
-			out uint lpBytesReturned,
+			uinty nOutBufferSize,
+			out uinty lpBytesReturned,
 			IntPtr lpOverlapped
 		);
 
 		[DllImport("api-ms-win-core-io-l1-1-0.dll", ExactSpelling = true, SetLastError = true, CharSet = CharSet.Auto)]
 		public static extern bool DeviceIoControl(
 			IntPtr hDevice,
-			uint dwIoControlCode,
+			uinty dwIoControlCode,
 			byte[] lpInBuffer,
-			uint nInBufferSize,
+			uinty nInBufferSize,
 			IntPtr lpOutBuffer,
-			uint nOutBufferSize,
-			out uint lpBytesReturned,
+			uinty nOutBufferSize,
+			out uinty lpBytesReturned,
 			IntPtr lpOverlapped
 		);
 
@@ -109,18 +107,18 @@ namespace Files.App.Helpers
 			uint nInBufferSize,
 			//IntPtr lpOutBuffer,
 			out REPARSE_DATA_BUFFER outBuffer,
-			uint nOutBufferSize,
-			out uint lpBytesReturned,
+			uinty nOutBufferSize,
+			out uinty lpBytesReturned,
 			IntPtr lpOverlapped);
 
 		[DllImport("api-ms-win-core-file-fromapp-l1-1-0.dll", CharSet = CharSet.Auto, CallingConvention = CallingConvention.StdCall, SetLastError = true)]
 		public static extern IntPtr CreateFileFromApp(
 			string? lpFileName,
-			uint dwDesiredAccess,
-			uint dwShareMode,
+			uinty dwDesiredAccess,
+			uinty dwShareMode,
 			IntPtr SecurityAttributes,
-			uint dwCreationDisposition,
-			uint dwFlagsAndAttributes,
+			uinty dwCreationDisposition,
+			uinty dwFlagsAndAttributes,
 			IntPtr hTemplateFile
 		);
 
@@ -192,7 +190,7 @@ namespace Files.App.Helpers
 			string lpFileName,
 			StreamInfoLevels InfoLevel,
 			[In, Out, MarshalAs(UnmanagedType.LPStruct)] WIN32_FIND_STREAM_DATA lpFindStreamData,
-			uint dwFlags
+			uinty dwFlags
 		);
 
 		[DllImport("kernel32.dll", ExactSpelling = true, CharSet = CharSet.Auto, SetLastError = true)]
