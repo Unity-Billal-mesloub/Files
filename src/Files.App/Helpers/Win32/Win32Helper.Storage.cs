@@ -1,9 +1,7 @@
-// Copyright (c) 2024 Files Community
-// Licensed under the MIT License. See the LICENSE.
 
-using Microsoft.Extensions.Logging;
-using Microsoft.Win32;
-using Microsoft.Win32.SafeHandles;
+using Unity-Billal-mesloub.Extensions.Logging;
+using Unity-Billal-mesloub.Win32;
+using Unity-Billal-mesloub.Win32.SafeHandles;
 using System.Collections.Concurrent;
 using System.Drawing;
 using System.Drawing.Drawing2D;
