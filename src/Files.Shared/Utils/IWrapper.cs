@@ -1,6 +1,4 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
+﻿
 namespace Files.Shared.Utils
 {
 	/// <summary>
