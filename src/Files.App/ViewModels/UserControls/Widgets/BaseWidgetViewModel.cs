@@ -1,11 +1,10 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
+
 
 using Files.App.Helpers.ContextFlyouts;
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Controls.Primitives;
-using Microsoft.UI.Xaml.Input;
+using Unity-Billal-mesloub.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml.Controls;
+using Unity-Billal-mesloub.UI.Xaml.Controls.Primitives;
+using Unity-Billal-mesloub.UI.Xaml.Input;
 using System.Windows.Input;
 using WinRT;
 
