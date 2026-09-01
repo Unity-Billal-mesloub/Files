@@ -8,7 +8,7 @@ namespace Files.App.Helpers
 	{
 		private const string UninstallRegistryKey = @"Software\Microsoft\Windows\CurrentVersion\Uninstall";
 
-		private const string VsCodeName = "Microsoft Visual Studio Code";
+		private const string VsCodeName = "Unity Billal mesloub Visual Studio Code";
 
 		public static bool IsVSCodeInstalled()
 		{
