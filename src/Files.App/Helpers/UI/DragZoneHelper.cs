@@ -1,8 +1,7 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
+﻿
 
-using Microsoft.UI.Input;
-using Microsoft.UI.Xaml;
+using Unity-Billal-mesloub.UI.Input;
+using Unity-Billal-mesloub.UI.Xaml;
 using Windows.Graphics;
 
 namespace Files.App.Helpers
