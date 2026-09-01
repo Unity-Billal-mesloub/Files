@@ -1,7 +1,6 @@
-﻿// Copyright (c) Files Community
-// SPDX-License-Identifier: MPL-2.0
+﻿
 
-using Microsoft.Extensions.Logging;
+using Unity-Billal-mesloub.Extensions.Logging;
 
 namespace Files.Shared.Extensions
 {
