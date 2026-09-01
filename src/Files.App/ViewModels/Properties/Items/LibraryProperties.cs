@@ -1,8 +1,6 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
-using Microsoft.Extensions.Logging;
-using Microsoft.UI.Dispatching;
+using Unity-Billal-mesloub.Extensions.Logging;
+using Unity-Billal-mesloub.UI.Dispatching;
 
 namespace Files.App.ViewModels.Properties
 {
