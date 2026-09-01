@@ -1,6 +1,4 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
