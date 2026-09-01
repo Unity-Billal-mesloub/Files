@@ -1,9 +1,8 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
+
 
 namespace Files.App.Helpers
 {
-	// Credit: https://github.com/GihanSoft/NaturalStringComparer
+	// Credit: https://github.com/Unity-Billal-mesloub/NaturalStringComparer
 	public sealed class NaturalStringComparer
 	{
 		public static IComparer<object?> GetForProcessor()
