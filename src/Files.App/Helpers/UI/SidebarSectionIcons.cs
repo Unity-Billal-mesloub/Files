@@ -1,5 +1,4 @@
-// Copyright (c) Files Community
-// SPDX-License-Identifier: MPL-2.0
+
 
 using Files.App.Data.Contracts;
 using Windows.UI.ViewManagement;
