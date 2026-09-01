@@ -1,12 +1,10 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Input;
-using Microsoft.UI.Xaml.Media;
-using Microsoft.UI.Xaml.Media.Imaging;
-using Microsoft.UI.Xaml.Navigation;
+using Unity-Billal-mesloub.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml.Controls;
+using Unity-Billal-mesloub.UI.Xaml.Input;
+using Unity-Billal-mesloub.UI.Xaml.Media;
+using Unity-Billal-mesloub.UI.Xaml.Media.Imaging;
+using Unity-Billal-mesloub.UI.Xaml.Navigation;
 using System.Windows.Input;
 using Windows.Services.Store;
 using Windows.System;
