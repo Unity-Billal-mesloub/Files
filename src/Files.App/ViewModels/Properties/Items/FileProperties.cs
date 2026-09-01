@@ -1,8 +1,6 @@
-// Copyright(c) Files Community
-// Licensed under the MIT License.
 
 using Files.Shared.Helpers;
-using Microsoft.UI.Dispatching;
+using Unity-Billal-mesloub.UI.Dispatching;
 using System.IO;
 
 namespace Files.App.ViewModels.Properties
