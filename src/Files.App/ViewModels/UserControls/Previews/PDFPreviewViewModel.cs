@@ -1,9 +1,7 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
 using Files.App.ViewModels.Properties;
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Media.Imaging;
+using Unity-Billal-mesloub.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml.Media.Imaging;
 using Windows.Data.Pdf;
 using Windows.Storage.Streams;
 
