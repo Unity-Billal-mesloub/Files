@@ -1,8 +1,6 @@
-// Copyright (c) Files Community
-// SPDX-License-Identifier: MPL-2.0
 
 using Files.App.Controls;
-using Microsoft.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml;
 using WinRT;
 
 namespace Files.App.ViewModels.Settings
