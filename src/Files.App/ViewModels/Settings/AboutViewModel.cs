@@ -1,7 +1,5 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
-using Microsoft.Win32;
+using Unity-Billal-mesloub.Win32;
 using System.Windows.Input;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.DataTransfer;
