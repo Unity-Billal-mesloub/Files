@@ -1,14 +1,12 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
 using Files.App.Controls;
 using Files.App.Helpers;
 using Files.App.Helpers.ContextFlyouts;
-using Microsoft.UI.Input;
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Controls.Primitives;
-using Microsoft.UI.Xaml.Media.Imaging;
+using Unity-Billal-mesloub.UI.Input;
+using Unity-Billal-mesloub.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml.Controls;
+using Unity-Billal-mesloub.UI.Xaml.Controls.Primitives;
+using Unity-Billal-mesloub.UI.Xaml.Media.Imaging;
 using System.Collections.Specialized;
 using System.IO;
 using System.Windows.Input;
@@ -42,7 +40,7 @@ namespace Files.App.ViewModels.UserControls
 		public IFilesystemHelpers? FilesystemHelpers
 			=> PaneHolder?.FilesystemHelpers;
 
-		private Microsoft.UI.Dispatching.DispatcherQueue? dispatcherQueue;
+		private Unity-Billal-mesloub.UI.Dispatching.DispatcherQueue? dispatcherQueue;
 		private INavigationControlItem? rightClickedItem;
 		private readonly UISettings uiSettings = new();
 
