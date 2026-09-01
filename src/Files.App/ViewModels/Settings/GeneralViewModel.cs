@@ -1,11 +1,9 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
 using System.Collections.Specialized;
 using Windows.Storage;
 using Windows.System;
 using static Files.App.Helpers.MenuFlyoutHelper;
-using DispatcherQueue = Microsoft.UI.Dispatching.DispatcherQueue;
+using DispatcherQueue = Unity-Billal-mesloub.UI.Dispatching.DispatcherQueue;
 
 namespace Files.App.ViewModels.Settings
 {
