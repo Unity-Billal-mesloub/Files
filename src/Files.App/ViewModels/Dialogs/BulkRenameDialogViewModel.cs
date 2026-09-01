@@ -1,6 +1,4 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
+﻿
 using Windows.Storage;
 
 namespace Files.App.ViewModels.Dialogs
