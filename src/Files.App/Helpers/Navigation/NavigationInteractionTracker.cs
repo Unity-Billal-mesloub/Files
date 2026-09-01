@@ -1,12 +1,10 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
-using Microsoft.UI.Composition;
-using Microsoft.UI.Composition.Interactions;
-using Microsoft.UI.Input;
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Hosting;
-using Microsoft.UI.Xaml.Input;
+﻿
+using Unity-Billal-mesloub.UI.Composition;
+using Unity-Billal-mesloub.UI.Composition.Interactions;
+using Unity-Billal-mesloub.UI.Input;
+using Unity-Billal-mesloub.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml.Hosting;
+using Unity-Billal-mesloub.UI.Xaml.Input;
 using System.Diagnostics.CodeAnalysis;
 using System.Numerics;
 
