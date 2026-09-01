@@ -1,5 +1,3 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
 using System;
 using System.Collections.Frozen;
@@ -39,7 +37,7 @@ namespace Files.Shared.Helpers
 				return false;
 
 			// Don't check folder paths to avoid issues
-			// https://github.com/files-community/Files/issues/17094
+			// https://github.com/Unity-Billal-mesloub/Files/issues/
 			if (Directory.Exists(filePathToCheck))
 				return false;
 
