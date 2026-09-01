@@ -1,10 +1,8 @@
-// Copyright(c) Files Community
-// Licensed under the MIT License.
 
 using Files.Shared.Helpers;
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Navigation;
+using Unity-Billal-mesloub.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml.Controls;
+using Unity-Billal-mesloub.UI.Xaml.Navigation;
 using TagLib;
 using Windows.Storage;
 
