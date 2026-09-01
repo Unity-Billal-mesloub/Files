@@ -1,12 +1,10 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
 using Files.App.Controls;
 using Files.App.Views.Properties;
-using Microsoft.UI.Windowing;
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Media.Animation;
+using Unity-Billal-mesloub.UI.Windowing;
+using Unity-Billal-mesloub.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml.Controls;
+using Unity-Billal-mesloub.UI.Xaml.Media.Animation;
 using WinRT;
 
 namespace Files.App.ViewModels.Properties
