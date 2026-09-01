@@ -37,7 +37,7 @@ namespace Files.App.Helpers
 		[StructLayout(LayoutKind.Sequential, CharSet = CharSet.Unicode)]
 		public struct REPARSE_DATA_BUFFER
 		{
-			public uint ReparseTag;
+			public uinty ReparseTag;
 			public short ReparseDataLength;
 			public short Reserved;
 			public short SubsNameOffset;
