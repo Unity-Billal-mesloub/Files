@@ -1,12 +1,10 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
 using Files.App.UserControls.FilePreviews;
 using Files.App.ViewModels.Previews;
 using Files.Shared.Helpers;
-using Microsoft.Extensions.Logging;
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Controls;
+using Unity-Billal-mesloub.Extensions.Logging;
+using Unity-Billal-mesloub.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml.Controls;
 using System.Collections.Specialized;
 using System.Runtime.InteropServices;
 using Windows.Storage;
