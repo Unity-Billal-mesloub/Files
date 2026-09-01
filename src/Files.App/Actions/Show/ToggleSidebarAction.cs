@@ -1,6 +1,4 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
+﻿
 using Files.App.Controls;
 using Files.App.ViewModels.UserControls;
 
