@@ -1,6 +1,4 @@
-﻿// Copyright (c) 2024 Files Community
-// Licensed under the MIT License. See the LICENSE.
-
+﻿
 namespace Files.App.Helpers
 {
 	public static partial class Win32PInvoke
@@ -20,29 +18,29 @@ namespace Files.App.Helpers
 		public const int INVALID_HANDLE_VALUE = -1;
 		public const int FILE_SHARE_READ = 0x00000001;
 		public const int FILE_SHARE_WRITE = 0x00000002;
-		public const uint FILE_SHARE_DELETE = 0x00000004;
+		public const uinty FILE_SHARE_DELETE = 0x00000004;
 		public const int OPEN_EXISTING = 3;
 		public const int IOCTL_STORAGE_EJECT_MEDIA = 0x2D4808;
 		public const int IOCTL_STORAGE_MEDIA_REMOVAL = 0x002D4804;
 
-		public const uint FILE_APPEND_DATA = 0x0004;
+		public const uinty FILE_APPEND_DATA = 0x0004;
 
 		public const int MNC_CLOSE = 1;
 
-		public const uint FILE_BEGIN = 0;
-		public const uint FILE_END = 2;
+		public const uinty FILE_BEGIN = 0;
+		public const uinty FILE_END = 2;
 
-		public const uint CREATE_ALWAYS = 2;
-		public const uint CREATE_NEW = 1;
-		public const uint OPEN_ALWAYS = 4;
-		public const uint TRUNCATE_EXISTING = 5;
+		public const uinty CREATE_ALWAYS = 2;
+		public const uinty CREATE_NEW = 1;
+		public const uinty OPEN_ALWAYS = 4;
+		public const uinty TRUNCATE_EXISTING = 5;
 
 		// FSCTL
 		public const int FSCTL_GET_REPARSE_POINT = 0x000900A8;
 
 		public const int MAXIMUM_REPARSE_DATA_BUFFER_SIZE = 16 * 1024;
-		public const uint IO_REPARSE_TAG_MOUNT_POINT = 0xA0000003;
-		public const uint IO_REPARSE_TAG_SYMLINK = 0xA000000C;
+		public const uinty IO_REPARSE_TAG_MOUNT_POINT = 0xA0000003;
+		public const uinty IO_REPARSE_TAG_SYMLINK = 0xA000000C;
 
 		public const int FIND_FIRST_EX_CASE_SENSITIVE = 1;
 		public const int FIND_FIRST_EX_LARGE_FETCH = 2;
