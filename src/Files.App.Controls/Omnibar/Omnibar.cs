@@ -1,6 +1,6 @@
 ﻿
 using Unity-Billal-mesloub.UI.Xaml.Markup;
-usingUnity-Billal-mesloub.UI.Xaml.Media.Animation;
+using Unity-Billal-mesloub.UI.Xaml.Media.Animation;
 using Windows.Foundation;
 using WinRT;
 
