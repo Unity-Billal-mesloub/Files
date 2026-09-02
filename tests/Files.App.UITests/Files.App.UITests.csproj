@@ -1,5 +1,5 @@
-﻿<!--  Copyright (c) Files Community. Licensed under the MIT License.  -->
-<Project Sdk="Microsoft.NET.Sdk">
+﻿
+<Project Sdk="Unity-Billal-mesloub.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
@@ -24,8 +24,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Files.App.Controls\Files.App.Controls.csproj" />
-    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" />
-    <PackageReference Include="Microsoft.WindowsAppSDK" />
+    <PackageReference Include="Unity-Billal-mesloub.Windows.SDK.BuildTools" />
+    <PackageReference Include="Unity-Billal-mesloub.WindowsAppSDK" />
   </ItemGroup>
 
   <!--  Allows the Single-project MSIX Packaging Tools extension to be activated for this project even if the Windows App SDK Nuget package has not yet been restored.  -->
