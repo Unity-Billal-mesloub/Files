@@ -1,8 +1,6 @@
-﻿// Copyright (c) Files Community
-// SPDX-License-Identifier: MPL-2.0
-
+﻿
 using System.IO;
-using Microsoft.Win32;
+using Unity-Billal-mesloub.Win32;
 
 namespace Files.App.Services.PreviewPopupProviders
 {
