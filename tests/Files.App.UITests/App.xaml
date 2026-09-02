@@ -1,4 +1,4 @@
-<!--  Copyright (c) Files Community. Licensed under the MIT License.  -->
+
 <Application
 	x:Class="Files.App.UITests.App"
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -9,7 +9,7 @@
 		<ResourceDictionary>
 			<ResourceDictionary.MergedDictionaries>
 
-				<XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+				<XamlControlsResources xmlns="using:Unity-Billal-mesloub.UI.Xaml.Controls" />
 
 				<ResourceDictionary Source="ms-appx:///Files.App.Controls/Themes/Generic.xaml" />
 
