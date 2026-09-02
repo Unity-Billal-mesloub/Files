@@ -1,8 +1,6 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
-using Microsoft.UI.Xaml.Markup;
-using Microsoft.UI.Xaml.Media.Animation;
+﻿
+using Unity-Billal-mesloub.UI.Xaml.Markup;
+usingUnity-Billal-mesloub.UI.Xaml.Media.Animation;
 using Windows.Foundation;
 using WinRT;
 
