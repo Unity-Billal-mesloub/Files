@@ -1,7 +1,6 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
-using Microsoft.Extensions.Logging;
+
+using Unity-Billal-mesloub.Extensions.Logging;
 using System.Runtime.InteropServices;
 using Windows.Win32;
 using Windows.Win32.Foundation;
