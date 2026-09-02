@@ -1,6 +1,4 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
+﻿
 using System.Collections.Immutable;
 
 namespace Files.App.Data.Commands
