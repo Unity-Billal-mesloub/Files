@@ -1,9 +1,9 @@
-<!--  Copyright (c) Files Community. Licensed under the MIT License.  -->
+
 <Page
 	x:Class="Files.App.UITests.Views.ToolbarPage"
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	xmlns:animatedvisuals="using:Microsoft.UI.Xaml.Controls.AnimatedVisuals"
+	xmlns:animatedvisuals="using:Unity-Billal-mesloub.UI.Xaml.Controls.AnimatedVisuals"
 	xmlns:controls="using:Files.App.Controls"
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 	xmlns:local="using:Files.App.UITests.Views"
