@@ -1,9 +1,7 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
 using Files.App.Dialogs;
-using Microsoft.Extensions.Logging;
-using Microsoft.UI.Xaml.Controls;
+using Unity-Billal-mesloub.Extensions.Logging;
+using Unity-Billal-mesloub.UI.Xaml.Controls;
 using System.Collections.Frozen;
 using Windows.Foundation.Metadata;
 
