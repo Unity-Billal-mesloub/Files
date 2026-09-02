@@ -1,4 +1,4 @@
-<!--  Copyright (c) Files Community. Licensed under the MIT License.  -->
+
 <Page
 	x:Class="Files.App.UITests.Views.OmnibarPage"
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
