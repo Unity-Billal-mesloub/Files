@@ -1,10 +1,8 @@
-﻿// Copyright (c) Files Community
-// SPDX-License-Identifier: MPL-2.0
-
+﻿
 using Files.Shared.Helpers;
 using ICSharpCode.SharpZipLib.Core;
 using ICSharpCode.SharpZipLib.Zip;
-using Microsoft.Extensions.Logging;
+using Unity-Billal-mesloub.Extensions.Logging;
 using SevenZip;
 using System.Collections.Concurrent;
 using System.IO;
