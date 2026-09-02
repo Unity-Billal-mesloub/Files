@@ -1,8 +1,6 @@
-// Copyright (c) Files Community
-// SPDX-License-Identifier: MPL-2.0
 
-using Microsoft.UI.Dispatching;
-using Microsoft.UI.Xaml.Media.Imaging;
+using Unity-Billal-mesloub.UI.Dispatching;
+using Unity-Billal-mesloub.UI.Xaml.Media.Imaging;
 using System.Collections.Concurrent;
 using System.IO;
 
