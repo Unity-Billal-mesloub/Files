@@ -1,6 +1,4 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
-
+﻿
 using System.Collections.Frozen;
 using System.Text;
 using Windows.Win32;
