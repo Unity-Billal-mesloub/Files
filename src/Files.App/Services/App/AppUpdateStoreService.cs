@@ -1,8 +1,6 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
-using Microsoft.Extensions.Logging;
-using Microsoft.UI.Xaml.Controls;
+using Unity-Billal-mesloub.Extensions.Logging;
+using Unity-Billal-mesloub.UI.Xaml.Controls;
 using System.IO;
 using System.Net.Http;
 using System.Text;
