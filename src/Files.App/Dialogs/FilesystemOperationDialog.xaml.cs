@@ -1,10 +1,8 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
-using CommunityToolkit.WinUI;
-using Microsoft.Extensions.Logging;
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Controls;
+using Unity-Billal-mesloubToolkit.WinUI;
+using Unity-Billal-mesloub.Extensions.Logging;
+using Unity-Billal-mesloub.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml.Controls;
 using WinRT;
 
 namespace Files.App.Dialogs
