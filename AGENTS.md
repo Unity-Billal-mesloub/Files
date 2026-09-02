@@ -1,6 +1,6 @@
 # Files Development Guidelines
 
-This project is a C#/.NET WinUI 3 desktop app; an alternative to File Explorer.
+This project is a C#/.NET WinUI desktop app; an alternative to File Explorer.
 
 - Protect context usage. Any command with unknown or potentially large output must be capped. Prefer targeted commands such as `rg`, `Get-Content -TotalCount`, `Select-Object -First`, or focused `git diff -- <path>`; for example, `COMMAND 2>&1 | Select-Object -First 200`. If a line cap is still too noisy, narrow the query instead of dumping full output.
 - Always follow `.editorconfig`
