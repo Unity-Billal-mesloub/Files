@@ -1,8 +1,6 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
 using Files.App.Utils.Serialization.Implementation;
-using Microsoft.Extensions.Logging;
+using Unity-Billal-mesloub.Extensions.Logging;
 using System.Collections.Concurrent;
 using System.IO;
 using Windows.Storage;
