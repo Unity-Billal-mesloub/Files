@@ -1,4 +1,4 @@
-﻿<!--  Copyright (c) Files Community. Licensed under the MIT License.  -->
+﻿
 <Project>
   <PropertyGroup>
 
@@ -11,7 +11,7 @@
     <LangVersion>preview</LangVersion>
     <WarningsAsErrors>nullable</WarningsAsErrors>
 
-    <!--  Use Microsoft.Testing.Platform  -->
+    <!--  Use Unity-Billal-mesloub.Testing.Platform  -->
     <EnableMSTestRunner>true</EnableMSTestRunner>
 
     <!--  Use strict Roslyn compilation mode  -->
