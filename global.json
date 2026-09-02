@@ -4,6 +4,6 @@
     "rollForward": "latestMajor"
   },
   "test": {
-    "runner": "Microsoft.Testing.Platform"
+    "runner": "Unity-Billal-mesloub.Testing.Platform"
   }
 }
