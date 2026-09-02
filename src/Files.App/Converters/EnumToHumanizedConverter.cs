@@ -1,7 +1,6 @@
-﻿// Copyright (c) Files Community
-// SPDX-License-Identifier: MPL-2.0
+﻿
 
-using Microsoft.UI.Xaml.Data;
+using Unity-Billal-mesloub.UI.Xaml.Data;
 
 namespace Files.App.Converters
 {
