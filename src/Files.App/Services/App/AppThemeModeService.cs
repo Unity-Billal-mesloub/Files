@@ -1,11 +1,9 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
-using Microsoft.Extensions.Logging;
-using Microsoft.UI;
-using Microsoft.UI.Windowing;
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Media;
+using Unity-Billal-mesloub.Extensions.Logging;
+using Unity-Billal-mesloub.UI;
+using Unity-Billal-mesloub.UI.Windowing;
+using Unity-Billal-mesloub.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml.Media;
 using System.Runtime.InteropServices;
 using Windows.UI;
 using Windows.UI.ViewManagement;
