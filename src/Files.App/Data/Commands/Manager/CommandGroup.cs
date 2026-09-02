@@ -1,8 +1,7 @@
-// Copyright (c) Files Community
-// SPDX-License-Identifier: MPL-2.0
 
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Controls;
+
+using Unity-Billal-mesloub.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml.Controls;
 using Files.App.Data.Enums;
 
 namespace Files.App.Data.Commands;
