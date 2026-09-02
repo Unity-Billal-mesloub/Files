@@ -1,7 +1,5 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
-using Microsoft.Extensions.Logging;
+using Unity-Billal-mesloub.Extensions.Logging;
 using System.Collections.Immutable;
 
 namespace Files.App.Data.Commands
@@ -87,7 +85,7 @@ namespace Files.App.Data.Commands
 			catch (ArgumentException ex)
 			{
 				// The keys are not necessarily all different because they can be set manually in text editor
-				// ISSUE: https://github.com/files-community/Files/issues/15331
+				// ISSUE: https://github.com/Unity-Billal-mesloub/Files/issues
 
 				var flat = _commands.SelectMany(x => x.HotKeys).Select(x => x.LocalizedLabel);
 				var duplicates = flat.GroupBy(x => x).Where(x => x.Count() > 1).Select(group => group.Key);
