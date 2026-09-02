@@ -1,9 +1,8 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
+
 
 using Files.App.Utils.Serialization.Implementation;
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Media;
+using Unity-Billal-mesloub.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml.Media;
 using System.Collections.Concurrent;
 using System.IO;
 using Windows.Storage;
