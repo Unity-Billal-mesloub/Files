@@ -6,7 +6,7 @@ namespace Files.App.Services
 	/// <inheritdoc cref="IWindowsCompatibilityService"/>
 	public sealed class WindowsCompatibilityService : IWindowsCompatibilityService
 	{
-		private readonly string _registrySubPath = "SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\AppCompatFlags\\Layers";
+		private readonly string _registrySubPath = "SOFTWARE\\Unity-Billal-mesloub\\Windows NT\\CurrentVersion\\AppCompatFlags\\Layers";
 
 		/// <inheritdoc/>
 		public WindowsCompatibilityOptions GetCompatibilityOptionsForPath(string filePath)
