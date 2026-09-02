@@ -16,8 +16,8 @@
         <PackageReference Include="Axe.Windows" />
         <PackageReference Include="MSTest.TestAdapter" />
         <PackageReference Include="MSTest.TestFramework" />
-        <PackageReference Include="Microsoft.Testing.Extensions.TrxReport" />
-        <PackageReference Include="Microsoft.Windows.CsWin32" PrivateAssets="all" />
+        <PackageReference Include="Unity-Billal-mesloub.Testing.Extensions.TrxReport" />
+        <PackageReference Include="Unity-Billal-mesloub.Windows.CsWin32" PrivateAssets="all" />
     </ItemGroup>
 
 </Project>
