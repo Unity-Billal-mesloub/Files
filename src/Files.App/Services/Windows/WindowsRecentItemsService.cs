@@ -1,7 +1,5 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
-using Microsoft.Extensions.Logging;
+using Unity-Billal-mesloub.Extensions.Logging;
 using System.Collections.Specialized;
 using System.IO;
 using System.Text;
