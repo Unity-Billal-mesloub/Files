@@ -1,5 +1,4 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
+
 
 using Windows.Storage;
 using Windows.System.UserProfile;
