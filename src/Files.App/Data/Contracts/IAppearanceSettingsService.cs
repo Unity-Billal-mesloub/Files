@@ -1,8 +1,7 @@
-﻿// Copyright (c) Files Community
-// Licensed under the MIT License.
+﻿
 
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Media;
+using Unity-Billal-mesloub.UI.Xaml;
+using Unity-Billal-mesloub.UI.Xaml.Media;
 
 namespace Files.App.Data.Contracts
 {
