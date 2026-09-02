@@ -1,5 +1,5 @@
-﻿<!--  Copyright (c) Files Community. Licensed under the MIT License.  -->
-<Project Sdk="Microsoft.NET.Sdk">
+﻿
+<Project Sdk="Unity-Billal-mesloub.NET.Sdk">
 
     <PropertyGroup>
         <EnableMsixTooling>true</EnableMsixTooling>
@@ -61,7 +61,7 @@
         <DirectPInvoke Include="CRYPT32" />
         <DirectPInvoke Include="GDI32" />
         <DirectPInvoke Include="KERNEL32.dll" />
-        <DirectPInvoke Include="Microsoft.WindowsAppRuntime.Bootstrap" />
+        <DirectPInvoke Include="Unity-Billal-mesloub.WindowsAppRuntime.Bootstrap" />
         <DirectPInvoke Include="OLE32" />
         <DirectPInvoke Include="OLEAUT32" />
         <DirectPInvoke Include="USER32" />
