@@ -1,5 +1,3 @@
-// Copyright (c) Files Community
-// Licensed under the MIT License.
 
 #include <iostream>
 #include <algorithm>
